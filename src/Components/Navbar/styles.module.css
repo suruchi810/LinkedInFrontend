@@ -1,0 +1,34 @@
+.container{
+    padding: 1.2rem;
+    margin-bottom: 3rem;
+}
+.navBar{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background: #ffffff;
+    margin: -1rem;
+    padding: 0.2rem;
+    padding-top: 0.5rem;
+    z-index: 1000;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+}
+.navBarOptionsConainer{
+    display: flex;
+    margin: 1.2rem;
+}
+.buttonJoin{
+    width: fit-content;
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.2s;
+    margin-top: 0.8rem;
+    font-size: 1.4rem;
+    border: 3px solid rgb(9, 142, 225);
+    padding-inline: 1rem;
+    padding-block: 0.3rem;
+    border-radius: 10px;
+}

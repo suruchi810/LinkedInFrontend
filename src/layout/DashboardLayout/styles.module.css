@@ -1,0 +1,44 @@
+.homeContainer{
+    display: flex;
+}
+.homeContainer > div:nth-child(odd){
+    flex: 0.2;
+}
+.homeContainer > div:nth-child(even){
+    flex: 0.6;
+}
+.homeContainer_left{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+.sidebarOption{
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+    gap: 1.3rem;
+    cursor: pointer;
+    transition: all 0.8ms;
+    max-width: 80%;
+}
+.sidebarOption > svg {
+    max-height: 1.4em;
+    min-height: 1.4em;
+}
+.sidebarOption:hover{
+    transform: scale(1.01);
+}
+.extraContainer_profile{
+    margin-left: 15%;
+    margin-top: 2%;
+    font-size: 20px;
+    cursor: pointer;
+}
+.heading{
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.087);
+    padding: 1rem 0.5rem;
+}
+
+
+

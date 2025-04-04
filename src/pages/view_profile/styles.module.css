@@ -1,0 +1,77 @@
+.container{
+    padding: 1.3rem;
+    background: rgb(255, 253, 253);
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+.backDropContainer{
+    width: 58vw;
+    height: 35vh;
+    background: url("https://healthyresumes.com/wp-content/uploads/2022/10/LinkedIn-Background-Photo-20-1.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 20px;
+}
+.backDrop{
+    width: 12vw;
+    height: 12vw;
+    object-fit: cover;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -30%;
+    left: 8%;
+    text-align: center;
+    border: 2px solid black;
+}
+.profileContainer_details{
+    padding-top: 6.6rem;
+}
+.card {
+    display: flex;
+    align-items: center;
+    gap: 1.4rem;
+}
+.card_profileContainer{
+    display: flex;
+}
+
+.card_profileContainer>img{
+    width: 3.4rem;
+    height: auto;
+    height: 3.4rem;
+    object-fit: cover;
+}
+.connectBtn{
+    padding-inline: 0.8rem;
+    padding-block: 0.3rem;
+    background: rgba(3, 93, 183, 0.905);
+    outline: none;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.connectionButton{
+    padding-inline: 0.8rem;
+    padding-block: 0.3rem;
+    border: 1px solid black;
+    outline: none;
+    color: rgba(48, 179, 227, 0.587);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.workHistoryContainer{
+    display: flex;
+    gap: 1.4rem;
+    padding-top: 2.5rem;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.workHistoryCard{
+    min-width: 2.5rem;
+    padding-block: 1rem;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgba(173, 173, 173);
+}
